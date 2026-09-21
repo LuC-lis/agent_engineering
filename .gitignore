@@ -14,3 +14,5 @@ aa/
 # Secrets / local config
 .env
 .env.*
+# 例外：配置模板需要提交进仓库，否则别人不知道要填什么
+!.env.example
